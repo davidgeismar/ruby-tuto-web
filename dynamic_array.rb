@@ -120,3 +120,33 @@ http://www.cse.cuhk.edu.hk/~taoyf/course/comp3506/lec/dyn-array.pdf
 # https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/
 
 # check why 1 + 2 + 4 +8 +.....+n/2 + n = log2(n - 1) +1 ???? = 2m
+
+
+
+-------
+
+#
+# Such method of analysis is
+# called an aggregate method. In this method, we show that a sequence of n operations (in
+# our example, insertions) takes THnL time, and then we say that the amortized cost per
+# insertion is THnL ê n.
+
+
+--------
+
+# accounting analysis
+
+
+-----
+# COMPLEXITY
+# So the complexity of an algorithm will be given by a function
+# which maps the number of items to the (usually approximate) number of time steps the
+# algorithm will take when performed on that many items.
+# Very often, we are not interested in the actual function C(n) that describes the time complexity of an algorithm in terms of the problem size n, but just its complexity class
+#  This is why complexity classes are so important –
+# they tell us how feasible it is likely to be to run a program with a particular large number
+# of data items.
+
+# Another useful way of thinking about growth classes involves considering how the compute
+# time will vary if the problem size doubles.
+---
